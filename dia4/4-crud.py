@@ -84,8 +84,10 @@ while(True):
         print("=" * ANCHO)
         print(" " * 10 + "SALIENDO DEL PROGRAMA")
         print("=" * ANCHO)
-        sleep(2)
+        sleep(1)
         break
+    else:
+        print("OPCION NO VALIDA...")
     
     input("Presione ENTER para continuar...")
 
