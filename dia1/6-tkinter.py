@@ -1,8 +1,10 @@
 from tkinter import *
+from tkinter import messagebox
 
 def saludar():
     nombre = txt_nombre.get()
     print(f"Hola, {nombre}!")
+    messagebox.showinfo("Saludo",f"Hola, {nombre}!")
     
 #creamos un objeto de la clase Tk
 app = Tk()
@@ -13,7 +15,7 @@ app.geometry("300x100")
 
 #crear un objeto frame
 frame = Frame(app)
-frame.grid(row=0,column=0,padx=20,pady=20)
+frame.grid(row=0,column=0,padx=20,pady=10)
 
 #crear una etiqueta (label) dentro del frame
 lb_nombre = Label(frame,text="Nombre :")
