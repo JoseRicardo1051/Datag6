@@ -18,5 +18,4 @@ email = input('Ingrese su email: ')
 password = input('Ingrese su password: ')
 
 usuario = Usuario()
-print(usuario.usuario_password)
 usuario.login(email, password)
