@@ -16,3 +16,5 @@ for registro in resultado:
     print('**************')
     print(f'Nombre : {registro[0]}')
     print(f'Email : {registro[1]}')
+    
+connection.close()
