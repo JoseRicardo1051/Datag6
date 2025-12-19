@@ -38,4 +38,5 @@ select nombre from alumno where id > 5;
 select * from alumno order by nombre asc;
 
 -- DELETE
-delete from alumno where id = 20;
+delete from alumno where id = 3;
+truncate table alumno;

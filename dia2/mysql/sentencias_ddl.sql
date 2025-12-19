@@ -1,3 +1,4 @@
+use db_g6;
 -- SENTENCIAS DDL
 -- CREATE TABLE
 CREATE TABLE alumno(
