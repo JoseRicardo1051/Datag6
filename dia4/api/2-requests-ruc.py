@@ -1,7 +1,11 @@
 import requests
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
 
 API_URL = 'https://apiperu.dev/api/ruc'
-TOKEN = 'tutoken'
+TOKEN = os.getenv("TOKEN")
 data_request = {
   "ruc":"20117592899"
 }
