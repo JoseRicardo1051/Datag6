@@ -1,6 +1,0 @@
-requests
-mysql-connector-python
-tabulate
-python-dotenv
-beautifulsoup4
-selenium
