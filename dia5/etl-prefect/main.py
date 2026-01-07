@@ -6,6 +6,7 @@ from prefect import flow
 @flow
 def main():
     data = extract()
+    print(data[0])
     data_transform = transform(data)
     load(data_transform)
     
