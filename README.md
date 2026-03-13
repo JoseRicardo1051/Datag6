@@ -1,11 +1,6 @@
-# data-science-g6
-REPOSITORIO DEL BOOTCAMP DE DATA SCIENCE GRUPO G6
+# pasos para crear entorno virtual
 
-## TEMARIO
-### MODULO 2
-* CLASE 1 - POO CON PYTHON
-* CLASE 2 - BASE DE DATOS CON PYTHON
-* CLASE 3 - CONSUMO DE APIS
-* CLASE 4 - WEBSCRAPPING
-* CLASE 5 - ETL
-
+## 1 crear el entorno
+```
+python -m venv venv
+```
