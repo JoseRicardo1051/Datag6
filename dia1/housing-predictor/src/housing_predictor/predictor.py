@@ -1,6 +1,7 @@
 import joblib
 import numpy as np
 import sklearn
+import os
 
 # Obtener ruta del paquete
 BASE_DIR = os.path.dirname(__file__)
